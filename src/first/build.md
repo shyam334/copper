@@ -142,6 +142,11 @@ Disassembly of section .text:
   14:   e7fe            b.n     14 <_reset+0xc>
 ```
 
+> **NOTE** If you get an output that significantly different from what's shown
+> above. For example, if the `<_reset>` part is missing, then likely your linker
+> has some sort of bug. We have had quite a few reports about that. The solution
+> is to try a different linker.
+
 Let me highlight the important bits of the output:
 
 ```
