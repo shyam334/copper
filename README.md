@@ -6,6 +6,11 @@
 
 > [WIP] Your guide to programming ARM Cortex-M microcontrollers with Rust
 
+This is the [mdbook] source of the book. You can find the rendered book at
+https://japaric.github.io/copper/
+
+[mdbook]: https://github.com/azerupi/mdBook
+
 ## License
 
 Licensed under either of
